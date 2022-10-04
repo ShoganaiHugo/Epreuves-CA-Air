@@ -1,4 +1,4 @@
-function surChacunEntreEux(arrayOfNames, string) {
+function passSanitaire(arrayOfNames, string) {
 	
 	// On vérifie les arguments
 	if (arrayOfNames.length < 2) {
@@ -28,4 +28,4 @@ function surChacunEntreEux(arrayOfNames, string) {
 	}
 }
 
-console.log(surChacunEntreEux(process.argv.slice(2), process.argv.slice(2)));
+console.log(passSanitaire(process.argv.slice(2), process.argv.slice(2)));
