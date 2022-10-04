@@ -2,7 +2,7 @@ function content(search) {
 	
 	// On vérifie les arguments
 	if (search.length !== 1) {
-		console.log('error');
+		return 'error';
 
 	} else {
 
@@ -13,4 +13,4 @@ function content(search) {
 	}
 }
 
-return content(process.argv.slice(2));
+console.log(content(process.argv.slice(2)));
