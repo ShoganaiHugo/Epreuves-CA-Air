@@ -1,4 +1,4 @@
-function pyramide(caract, lignes) {
+export function pyramide(caract, lignes) {
 	
 	// On vérifie les arguments
 	if (caract.length !== 2) {

@@ -1,4 +1,4 @@
-function melangeur(arrayAFusionner) {
+export function melangeur(arrayAFusionner) {
 	
 	// On vérifie les arguments
 	if (arrayAFusionner.length < 2 || arrayAFusionner.includes('fusion') === false) {
@@ -43,5 +43,3 @@ function melangeur(arrayAFusionner) {
 
 	}
 }
-
-console.log(melangeur(process.argv.slice(2)));

@@ -1,4 +1,4 @@
-function rotateLeft(arrayToRotate) {
+export function rotateLeft(arrayToRotate) {
 	
 	// On vérifie les arguments
 	if (arrayToRotate.length < 2) {
@@ -22,5 +22,3 @@ function rotateLeft(arrayToRotate) {
 
 	}
 }
-
-console.log(rotateLeft(process.argv.slice(2)));
