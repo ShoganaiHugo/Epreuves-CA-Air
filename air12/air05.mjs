@@ -40,7 +40,7 @@ export function surChacunEntreEux(arrayOfNum) {
 		}
 
 		// On renvoie le tableau sous la forme : 1 2 3 plutôt que ['1', '2', '3']
-		return typeof arrayOfNum.join(' ');
+		return arrayOfNum.join(' ');
 		
 	}
 }

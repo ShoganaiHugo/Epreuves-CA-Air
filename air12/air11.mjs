@@ -35,5 +35,3 @@ export function pyramide(caract, lignes) {
 		return arrayResult.join('\n');
 	}
 }
-
-console.log(pyramide(process.argv.slice(2), process.argv.slice(2)));

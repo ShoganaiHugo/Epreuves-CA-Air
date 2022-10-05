@@ -10,7 +10,7 @@ export function splitEnFonction(arrayOfWord, separateurs) {
 		// On en profite pour modifier arrayOfWord (array) en strACut (str)
 		let arr = [''];
 		let index = 0;
-		strACut = arrayOfWord[0];
+		let strACut = arrayOfWord[0];
 		separateurs = separateurs[0];
 
 		// On parcourt la str et vérifie si le caractère est le même que le premier des separateurs
@@ -50,9 +50,11 @@ export function splitEnFonction(arrayOfWord, separateurs) {
 
 		let result = '';
 		// On affiche chaque case de notre array
-		for ( let i = 0; i !== arr.length; i++ ) {
-	      result += arr[i];
+		for ( let i = 0; i !== arr.length - 1; i++ ) {
+	      result += arr[i] + '\n';
 	    }
+
+	    result += arr[arr.length - 1];
 
 	    return result;
 	}

@@ -53,5 +53,3 @@ export function partition(array, left, right) {
 	return left;
 
 }
-
-console.log(kingOfTri(process.argv.slice(2)));
