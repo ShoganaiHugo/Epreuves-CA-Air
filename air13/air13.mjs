@@ -14,140 +14,125 @@ import {kingOfTri, partition} from './air12.mjs';
 
 
 
-let air00 = '';
-let air01 = '';
-let air02 = '';
-let air03 = '';
-let air04 = '';
-let air05 = '';
-let air06 = '';
-let air07 = '';
-let air08 = '';
-let air09 = '';
-let air10 = '';
-let air11 = '';
-let air12 = '';
-
-
 let result = 0;
 let max = 0;
 
 
 
 if (splitMaison(["Bonjour les gars"], " \n\t") === 'Bonjour\nles\ngars') {
-	air00 = '\x1b[32msuccess';
+	let air00 = '\x1b[32msuccess';
 	result++;
 	max++;
 } else {
-	air00 = '\x1b[31mfailure';
+	let air00 = '\x1b[31mfailure';
 	max++;
 }
 
 if (splitEnFonction(['Crevette magique dans la mer des étoiles', 'la'], ['la']) === 'Crevette magique dans \nmer des étoiles') {
-	air01 = '\x1b[32msuccess';
+	let air01 = '\x1b[32msuccess';
 	result++;
 	max++;
 } else {
-	air01 = '\x1b[31mfailure';
+	let air01 = '\x1b[31mfailure';
 	max++;
 }
 
 if (strConcat(['je', 'test', 'des', 'trucs', ' '], ['je', 'test', 'des', 'trucs', ' ']) === 'je test des trucs') {
-	air02 = '\x1b[32msuccess';
+	let air02 = '\x1b[32msuccess';
 	result++;
 	max++;
 } else {
-	air02 = '\x1b[31mfailure';
+	let air02 = '\x1b[31mfailure';
 	max++;
 }
 
 if (intru(['1', '2', '3', '4', '5', '4', '3', '2', '1']) === '5') {
-	air03 = '\x1b[32msuccess';
+	let air03 = '\x1b[32msuccess';
 	result++;
 	max++;
 } else {
-	air03 = '\x1b[31mfailure';
+	let air03 = '\x1b[31mfailure';
 	max++;
 }
 
 if (oneTime(['Hello miladay,     bien ou quoi ??']) === 'Helo miladay, bien ou quoi ?') {
-	air04 = '\x1b[32msuccess';
+	let air04 = '\x1b[32msuccess';
 	result++;
 	max++;
 } else {
-	air04 = '\x1b[31mfailure';
+	let air04 = '\x1b[31mfailure';
 	max++;
 }
 
 if (surChacunEntreEux(['1', '2', '3', '4', '5', '+2']) === '3 4 5 6 7') {
-	air05 = '\x1b[32msuccess';
+	let air05 = '\x1b[32msuccess';
 	result++;
 	max++;
 } else {
-	air05 = '\x1b[31mfailure';
+	let air05 = '\x1b[31mfailure';
 	max++;
 }
 
 if (passSanitaire(['Michel', 'Albert', 'Thérèse', 'Benoit', 't'], ['Michel', 'Albert', 'Thérèse', 'Benoit', 't']) === 'Michel') {
-	air06 = '\x1b[32msuccess';
+	let air06 = '\x1b[32msuccess';
 	result++;
 	max++;
 } else {
-	air06 = '\x1b[31mfailure';
+	let air06 = '\x1b[31mfailure';
 	max++;
 }
 
 if (insertionArray(['1', '3', '4', '2'], ['1', '3', '4', '2']) === '1 2 3 4') {
-	air07 = '\x1b[32msuccess';
+	let air07 = '\x1b[32msuccess';
 	result++;
 	max++;
 } else {
-	air07 = '\x1b[31mfailure';
+	let air07 = '\x1b[31mfailure';
 	max++;
 }
 
 if (melangeur(['10', '20', '30', 'fusion', '15', '25', '35']) === '10 15 20 25 30 35' ) {
-	air08 = '\x1b[32msuccess';
+	let air08 = '\x1b[32msuccess';
 	result++;
 	max++;
 } else {
-	air08 = '\x1b[31mfailure';
+	let air08 = '\x1b[31mfailure';
 	max++;
 }
 
 if (rotateLeft(['Michel', 'Albert', 'Thérèse', 'Benoit']) === 'Albert, Thérèse, Benoit, Michel') {
-	air09 = '\x1b[32msuccess';
+	let air09 = '\x1b[32msuccess';
 	result++;
 	max++;
 } else {
-	air09 = '\x1b[31mfailure';
+	let air09 = '\x1b[31mfailure';
 	max++;
 }
 
 if (content(['a.txt']) === "Je danse le mia") {
-	air10 = '\x1b[32msuccess';
+	let air10 = '\x1b[32msuccess';
 	result++;
 	max++;
 } else {
-	air10 = '\x1b[31mfailure';
+	let air10 = '\x1b[31mfailure';
 	max++;
 }
 
 if (pyramide(['0', '5'], ['0', '5']) === '    0    \n   000   \n  00000  \n 0000000 \n000000000') {
-	air11 = '\x1b[32msuccess';
+	let air11 = '\x1b[32msuccess';
 	result++;
 	max++;
 } else {
-	air11 = '\x1b[31mfailure';
+	let air11 = '\x1b[31mfailure';
 	max++;
 }
 
 if (kingOfTri(['6', '5', '4', '3', '2', '1']) === '1 2 3 4 5 6') {
-	air12 = '\x1b[32msuccess';
+	let air12 = '\x1b[32msuccess';
 	result++;
 	max++;
 } else {
-	air12 = '\x1b[31mfailure';
+	let air12 = '\x1b[31mfailure';
 	max++;
 }
 
